@@ -83,7 +83,8 @@ This is project is to create a simple Todo application using React, Material UI,
 
 <hr/>
 
-<img width="1794" alt="image" src="https://user-images.githubusercontent.com/93105607/200165502-4f175caf-8b4d-4e67-bff8-7011afb767a5.png">
+<img width="1612" alt="image" src="https://user-images.githubusercontent.com/93105607/200165562-a3061b84-f921-4e26-9b6a-114d5568d359.png">
+
 
 <hr/>
 
