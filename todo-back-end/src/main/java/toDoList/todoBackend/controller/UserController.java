@@ -1,4 +1,4 @@
-package toDoList.demo.controller;
+package toDoList.todoBackend.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import toDoList.demo.dto.ResponseDTO;
-import toDoList.demo.dto.UserDTO;
-import toDoList.demo.model.User;
-import toDoList.demo.security.TokenProvider;
-import toDoList.demo.service.UserService;
+import toDoList.todoBackend.dto.ResponseDTO;
+import toDoList.todoBackend.dto.UserDTO;
+import toDoList.todoBackend.model.User;
+import toDoList.todoBackend.security.TokenProvider;
+import toDoList.todoBackend.service.UserService;
 
 @Slf4j
 @RestController

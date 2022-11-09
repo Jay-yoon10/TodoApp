@@ -1,4 +1,4 @@
-package toDoList.demo;
+package toDoList.todoBackend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package toDoList.demo.security.Jwt;
+package toDoList.todoBackend.security.Jwt;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +11,7 @@ import org.springframework.security.web.authentication.WebAuthenticationDetailsS
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 import org.springframework.web.filter.OncePerRequestFilter;
-import toDoList.demo.security.TokenProvider;
+import toDoList.todoBackend.security.TokenProvider;
 
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;
@@ -23,7 +23,7 @@ import java.io.IOException;
 @Component
 public class JwtAuthenticationFilter extends OncePerRequestFilter {
     @Autowired
-     TokenProvider tokenProvider;
+    TokenProvider tokenProvider;
 
     @Override
     protected void doFilterInternal (HttpServletRequest request, HttpServletResponse response,

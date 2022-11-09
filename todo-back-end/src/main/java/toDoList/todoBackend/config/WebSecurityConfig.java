@@ -1,4 +1,4 @@
-package toDoList.demo.config;
+package toDoList.todoBackend.config;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +11,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.web.filter.CorsFilter;
-import toDoList.demo.security.Jwt.JwtAuthenticationFilter;
+import toDoList.todoBackend.security.Jwt.JwtAuthenticationFilter;
 
 @Slf4j
 @EnableWebSecurity
@@ -32,7 +32,7 @@ public class WebSecurityConfig  {
                 .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
                 .authorizeRequests() // path "/" and "/auth/**" no need to authorise
-                .antMatchers("/","/auth/**").permitAll()
+                .antMatchers("/","/auth/**", "/swagger-resources/**","/v2/api-docs/**", "/swagger-ui/index.html", "/swagger-ui.html","/webjars/**", "/swagger/**").permitAll()
                 .anyRequest() // any other paths besides path "/" and "/auth/**"  need to be authenticated.
                 .authenticated();
         http.addFilterAfter(

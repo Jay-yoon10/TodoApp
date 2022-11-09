@@ -1,8 +1,8 @@
-package toDoList.demo.repository;
+package toDoList.todoBackend.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import toDoList.demo.model.User;
+import toDoList.todoBackend.model.User;
 
 import java.util.Optional;
 

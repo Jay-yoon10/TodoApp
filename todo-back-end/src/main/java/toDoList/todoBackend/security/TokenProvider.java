@@ -1,12 +1,12 @@
-package toDoList.demo.security;
+package toDoList.todoBackend.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.SignatureAlgorithm;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import toDoList.demo.model.User;
 import io.jsonwebtoken.Jwts;
+import toDoList.todoBackend.model.User;
 
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;

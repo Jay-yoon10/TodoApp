@@ -1,16 +1,17 @@
-package toDoList.demo.service;
+package toDoList.todoBackend.service;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import toDoList.demo.model.User;
-import toDoList.demo.repository.UserRepository;
+import toDoList.todoBackend.model.User;
+import toDoList.todoBackend.repository.UserRepository;
+
 
 @Slf4j
 @Service
-
 public class UserService {
+
     @Autowired
     private UserRepository userRepository;
 

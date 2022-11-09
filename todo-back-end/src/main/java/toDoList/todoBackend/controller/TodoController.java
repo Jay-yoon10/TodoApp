@@ -1,13 +1,14 @@
-package toDoList.demo.controller;
+package toDoList.todoBackend.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
-import toDoList.demo.dto.ResponseDTO;
-import toDoList.demo.dto.TodoDTO;
-import toDoList.demo.model.Todo;
-import toDoList.demo.service.TodoService;
+
+import toDoList.todoBackend.dto.ResponseDTO;
+import toDoList.todoBackend.dto.TodoDTO;
+import toDoList.todoBackend.model.Todo;
+import toDoList.todoBackend.service.TodoService;
 
 import java.util.List;
 import java.util.stream.Collectors;

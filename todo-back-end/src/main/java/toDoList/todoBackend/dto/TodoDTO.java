@@ -1,10 +1,10 @@
-package toDoList.demo.dto;
+package toDoList.todoBackend.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import toDoList.demo.model.Todo;
+import toDoList.todoBackend.model.Todo;
 
 @Builder
 @NoArgsConstructor

@@ -1,4 +1,4 @@
-package toDoList.demo.dto;
+package toDoList.todoBackend.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

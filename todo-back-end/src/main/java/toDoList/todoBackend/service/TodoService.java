@@ -1,10 +1,11 @@
-package toDoList.demo.service;
+package toDoList.todoBackend.service;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import toDoList.demo.model.Todo;
-import toDoList.demo.repository.TodoRepository;
+
+import toDoList.todoBackend.model.Todo;
+import toDoList.todoBackend.repository.TodoRepository;
 
 import java.util.List;
 import java.util.Optional;
