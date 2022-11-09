@@ -23,7 +23,7 @@
 
 <hr/>
 
-This is project is to create a simple Todo application using React, Material UI, React Router for the front-end and connected to back-end using Java Spring, jwt and MySQL database. The aim is to practice full stack development and how integration works between front-end and back-end.
+This project is to create a simple Todo application using React, Material UI, React Router for the front-end and connected to back-end using Java Spring, jwt and MySQL database. The aim is to practice full stack development and how integration works between front-end and back-end.
 
 <br>
 
