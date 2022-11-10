@@ -3,27 +3,25 @@
 
 <hr/>
 <p>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/> 
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/> 
-<img src="https://img.shields.io/badge/MUI-007FFF?style=flat-square&logo=MUI&logoColor=white"/> 
-<img src="https://img.shields.io/badge/MUI-007FFF?style=flat-square&logo=MUI&logoColor=white"/> 
-<br>
+<img src="https://img.shields.io/badge/JavaScript-D9DDDC?style=for-the-badge"/> 
+<img src="https://img.shields.io/badge/React-D9DDDC?style=for-the-badge"/> 
+<img src="https://img.shields.io/badge/MUI-D9DDDC?style=for-the-badge"/> 
+<img src="https://img.shields.io/badge/MUI-D9DDDC?style=for-the-badge"/> 
 
-<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white" /> 
-<img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=flat-square&logo=SpringBoot&logoColor=white" /> 
-<img src="https://img.shields.io/badge/SpringSecurity-6DB33F?style=flat-square&logo=SpringSecurity&logoColor=white" /> 
+<img src="https://img.shields.io/badge/Java-D9DDDC?style=for-the-badge" /> 
+<img src="https://img.shields.io/badge/SpringBoot-D9DDDC?style=for-the-badge" /> 
+<img src="https://img.shields.io/badge/SpringSecurity-D9DDDC?style=for-the-badge" /> 
 
-<br>
 
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white" />
-<img src="https://img.shields.io/badge/JWT-4479A1?style=flat-square&logo=JsonWebTokens&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-D9DDDC?style=for-the-badge" />
+<img src="https://img.shields.io/badge/JWT-D9DDDC?style=for-the-badge" />
 </p>
 
 ## ***PROJECT GOAL***
 
 <hr/>
 
-This project is to create a simple Todo application using React, Material UI, React Router for the front-end and connected to back-end using Java Spring, jwt and MySQL database. The aim is to practice full stack development and how integration works between front-end and back-end.
+This project is to create a simple full-stack Todo application using React, Material UI, React Router for the front-end and connected with back-end using Java Spring, jwt and MySQL database. The project aim is to practice full stack development and how integration works between front-end and back-end.
 
 <br>
 
