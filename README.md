@@ -1,20 +1,23 @@
-
+# __Todo App__
 ## ***TECH STACKS***
 
 <hr/>
 <p>
 <img src="https://img.shields.io/badge/JavaScript-D9DDDC?style=for-the-badge"/> 
 <img src="https://img.shields.io/badge/React-D9DDDC?style=for-the-badge"/> 
-<img src="https://img.shields.io/badge/MUI-D9DDDC?style=for-the-badge"/> 
+<img src="https://img.shields.io/badge/React_Router-D9DDDC?style=for-the-badge"/> 
 <img src="https://img.shields.io/badge/MUI-D9DDDC?style=for-the-badge"/> 
 
 <img src="https://img.shields.io/badge/Java-D9DDDC?style=for-the-badge" /> 
-<img src="https://img.shields.io/badge/SpringBoot-D9DDDC?style=for-the-badge" /> 
-<img src="https://img.shields.io/badge/SpringSecurity-D9DDDC?style=for-the-badge" /> 
+<img src="https://img.shields.io/badge/Spring_Boot-D9DDDC?style=for-the-badge" /> 
+<img src="https://img.shields.io/badge/Spring_Security-D9DDDC?style=for-the-badge" /> 
 
 
 <img src="https://img.shields.io/badge/MySQL-D9DDDC?style=for-the-badge" />
 <img src="https://img.shields.io/badge/JWT-D9DDDC?style=for-the-badge" />
+  <br>
+<img src="https://img.shields.io/badge/SWAGGER_UI-D9DDDC?style=for-the-badge" />
+<img src="https://img.shields.io/badge/POSTMAN-D9DDDC?style=for-the-badge" />
 </p>
 
 ## ***PROJECT GOAL***
@@ -26,6 +29,7 @@ This project is to create a simple full-stack Todo application using React, Mate
 <br>
 
 ## ***PROJECT OVERVIEW***
+
 
 <hr/>
 
@@ -41,9 +45,6 @@ This project is to create a simple full-stack Todo application using React, Mate
 
 ### Adding a task to do ###
 ![image](https://user-images.githubusercontent.com/93105607/199334635-c730e602-e100-45dc-85a8-179710e613b0.png)
-
-### Bearer token implementation ###
-![image](https://user-images.githubusercontent.com/93105607/199334664-d338a6ed-93cb-417b-b4da-7ea4ce7d58af.png)
 
 <hr/>
 
@@ -75,6 +76,20 @@ This project is to create a simple full-stack Todo application using React, Mate
 #### Get - Todo
 ![image](https://user-images.githubusercontent.com/93105607/200163295-b9b04eb6-50c7-4459-b02f-a5dced5539a4.png)
 
+## ***JWT TOKEN IMPLEMENTATION***
+
+<hr/>
+
+<img width="1034" alt="Screenshot 2022-11-10 at 10 22 29 pm" src="https://user-images.githubusercontent.com/93105607/201079043-5fae9767-bb42-4317-820d-cbefe43eed5f.png">
+
+### ***Token Header & Payload include***
+
+{"alg":HS512"}. // header
+{"sub": "40288084844c350601844c35e0000000", // payload
+ "iss": "Todo App",
+ "iat": 1668079343,
+ "exp": 1668165743}
+.[signature]
 <hr/>
 
 ## ***SWAGGER UI***
@@ -90,5 +105,6 @@ This project is to create a simple full-stack Todo application using React, Mate
 
 <hr/>
 
-- Try deploying the service using one of the cloud service like AWS.
-- Refactoring the code using Typescript.
+- Try deploying the service using one of the cloud service like AWS to make it actuall application that can be used by end-users.
+- Refactoring the code using Typescript to avoid any potential type errors.
+
